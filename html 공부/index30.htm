@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.city {
+  color : red;
+}
+</style>
+</head>
+<body>
+
+<button onclick = "myFunction()">Hide element</button>
+
+<h2 class="city"> Seoul </h2>
+<h2 class="city"> Busan </h2>
+<script>
+function myFunction() {
+  var x = document.getElementsByClassName("city");
+  for ( var i = 0; i < x.length; i++) {
+    x[i].style.display= "none";
+  }
+}
+</script>
+</body>
+</html>

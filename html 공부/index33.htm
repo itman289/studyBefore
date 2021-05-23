@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p id="light01"> </p>
+<p id="date01"> </p>
+<button type="button" onclick="light01()">light on</button>
+<button type="button" onclick="light02()">light off</button>
+<button type="button" onclick="document.getElementById('date01').innerHTML=Date()">Day</button>
+<script>
+function light01() { 
+ document.getElementById("light01").innerHTML = "light on";
+ document.getElementById("light01").style.backgroundColor = "yellow";
+ document.getElementById("light01").style.color = "black";
+ document.getElementById("light01").style.fontSize="30px";
+}
+function light02() { 
+ document.getElementById("light01").innerHTML = "light off";
+ document.getElementById("light01").style.backgroundColor = "black";
+ document.getElementById("light01").style.color = "white";
+ document.getElementById("light01").style.fontSize="30px";
+}
+</script>
+</body>
+</html>

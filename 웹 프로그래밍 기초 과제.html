@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="EUC-KR">
+	<title>웹 프로그래밍 기초 과제</title>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Pacifico&display=swap');
+		a:link {
+			color:white;
+			text-decoration:none;
+		}
+		a:visited {
+			color:#ffffff;
+			text-decoration:none;
+		}
+		header {
+			padding: 20px 30px 30px 60px;
+			background-color: black;
+		}
+		nav {
+			overflow: visible;
+			float: right;
+			text-align: center;
+			padding: 30px 60px 8px 1px;
+			font-size: 30px;
+			font-family: 'Noto Sans KR', sans-serif;
+			text-decoraion: none;
+			word-spacing: 100px;
+			color: white;
+		}
+		#banner{
+			color:white;
+			font-size: 55px;
+			font-family: 'Noto Sans KR', sans-serif;
+			padding: 300px 1px 300px 60px;
+			letter-spacing:2px;
+			background-image: url('https://images.unsplash.com/photo-1547653872-052e3539decc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
+			background-repeat: no-repeat;
+			background-size: cover;
+			box-sizing: border-box;
+		}
+		.inner {
+			overflow:visible;
+		}
+		.logo {
+			color: rgb(255,0,0) !important; 
+			font-size: 55px;
+			font-family: 'Pacifico', cursive;
+		}
+		.actions {
+			width: 290px; height: 39px;
+			border: solid 3px white;
+			padding: 20px 1px 25px 1px;
+			color: white;
+			font-size: 30px;
+			text-align: center;
+			font-family: 'Noto Sans KR', sans-serif;
+			font-weight: bold;
+			list-style-type: none;
+		}
+	</style>
+</head>
+<body>
+	<header id="header">
+	<div class="inner">
+		<a href="index.html" class="logo">KNU-Web Programming</a>
+		<nav id="nav">
+			<a href="index.html">Home</a>
+			<a href="generic.html">메뉴1</a>
+			<a href="elements.html">메뉴2</a>
+		</nav>
+	</div>
+	</header>
+<a href="#menu" class="navPanelToggle">
+	<span class="fa fa-bars"></span></a>
+		<section id="banner">
+			<div class="inner">
+			<h1>KNU: <span> Kyungpook National University<br/>
+				KNU-Web Programming Basic & Practice</span></h1>
+			<ul class="actions">
+				<li><a href="#" class="button alt">Get Started</a></li>
+			</ul>
+			</div>
+		</section>
+	</body>
+</html>
